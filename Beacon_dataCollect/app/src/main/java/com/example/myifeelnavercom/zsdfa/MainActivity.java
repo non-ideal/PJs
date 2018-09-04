@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
             noiseB="0";
         try {
             serverAddr = InetAddress.getByName("117.16.44.95");
-            //serverAddr = InetAddress.getByName("118.219.241.229");
+           
         } catch (Exception e) {
             Log.e("InetAddress", "S: Error", e);
         }
