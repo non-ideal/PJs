@@ -63,10 +63,10 @@ public class getBus extends AsyncTask<String, Void, Document> {
                 bus = getTagValue("rtNm", eElement);
                 for (int ii = 0; ii < 5; ii++) {
                     if (bus.equals(A[ii])) {
-                        s = "이번: " + getTagValue("arrmsg1", eElement) + "     ";
-                        s += "탑승: " + getTagValue("reride_Num1", eElement) + "명" + "\n";
-                        s += "다음: " + getTagValue("arrmsg2", eElement) + "     ";
-                        s += "탑승: " + getTagValue("reride_Num2", eElement) + "명" + "\n";
+                        s = "이번: " + getTagValue("arrmsg1", eElement) +"\n";
+                        //s += "탑승: " + getTagValue("reride_Num1", eElement) + "명" + "\n";
+                        s += "다음: " + getTagValue("arrmsg2", eElement) + "\n";
+                        //s += "탑승: " + getTagValue("reride_Num2", eElement) + "명" + "\n";
                         Bus[ii] = bus;
                         texts[ii] = s;
                     }
