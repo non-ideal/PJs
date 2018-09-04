@@ -1,4 +1,4 @@
-## Beacon_Final
+## Beacon_dataCollect
 >@ I-Beacon 을 사용한 실내위치 데이터를 서버로 보내는 프로그램이다.<br>
 비콘과의 연결을 주기적으로 Check 한다음, 가장 가까이 있는 비콘의 id를 통해 사용자의 실내 위치를 알수있다<br>
 여러사용자의 위치 데이터가 중복되지 않도록 Android Device ID 를 서버에 같이 전송한다.<br>
