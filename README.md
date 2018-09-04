@@ -11,7 +11,7 @@ Estimote Beacon을 사용했다.
 xml형태로 나타내는 버스 api의 정보를 크롤링하여 배열에 정리한뒤 ListView로 출력한다.<br>
 총 4개의 정류장을 표현했다.<br><br>
 문제점: 서울 버스api 에서 제공하는 현재 탑승인원을 나타내고 싶었지만, 이를 나타내는 변수인 reride_num1이 왜인지 모르게 0 or 3 or 4만 표현 하고 있다.
-
+![kakaotalk_20180904_184214730](https://user-images.githubusercontent.com/30405844/45024791-c4d83a00-b074-11e8-8375-48aff8d83a8b.jpg)
 
 ## NaverMAP
 1. NaverMapBasic
