@@ -5,8 +5,21 @@
 Device ID가 노출되면 부적절한 상황을 야기할 수 있기 때문에 이를 방지하기 위해 Noise 를 추가하는 함수도 존재한다. ( noBid, sencondnoise)<br>
 Estimote Beacon을 사용했다.
 
+
+## Bus_4me
+>@ 서울 버스api를 이용하여 등,하교때 주로 사용하는 정류장의 버스정보들을 가져와 각각의 탭에 표현하는 어플이다.<br>
+xml형태로 나타내는 버스 api의 정보를 크롤링하여 배열에 정리한뒤 ListView로 출력한다.<br>
+총 4개의 정류장을 표현했다.<br><br>
+문제점: 서울 버스api 에서 제공하는 현재탑승인원인 reride_num1이 0 or 3 만 표현 하고 있다.
+
+
 ## NaverMAP
 1. NaverMapBasic
 > Fragment를 사용해 네이버 지도를 그리고, GPS를 통해 자신의 위치를 표시한다.
 2. NaverMap+
 > php 서버에 접근해서 가져온 위치들을 네이버 지도 위에 OverlayItem으로 표시한다.
+
+## php_sql
+>@ seat.php 는 mysql에 저장되어있는 db의 정보를 읽어와 html상에 뛰운다.<br>
+php_connect 는 db의 정보들을 JSON 형식으로 출력하여 다른 사용자가 서버상의 정보를 필요로 할때에 제공해줄수 있다.
+
