@@ -35,7 +35,7 @@ public class getBus extends AsyncTask<String, Void, Document> {
     String Bus[] = {"", "", "", "", ""};
     String texts[] = new String[5];
     URL url;
-    String url2="http://ws.bus.go.kr/api/rest/arrive/getLowArrInfoByStId?ServiceKey=ZUpYRcYG5aEM7ugMSQoNmjtAc0leLgZoJJqH2Z5feXJGJkYa1EGV3Ag6evY6QU%2FKczL6URU8QkG7lO%2FO%2FAkZCA%3D%3D&stId=";
+    String url2="http://ws.bus.go.kr/api/rest/arrive/getLowArrInfoByStId?ServiceKey=4HIY2BU8BfmDl0p7GwfdQhUdWl9JsxB4TsAWnMlyNX0cdRVJcyA8xQdTOzMxj%2B6Y4WYjFjUccmZzfJfVfXgdyg%3D%3D&stId=";
     @Override
     protected Document doInBackground(String... urls) {
         try {
